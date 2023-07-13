@@ -1,7 +1,3 @@
-includes:
-    - vendor/phpstan/phpstan/conf/bleedingEdge.neon
-    - vendor/proget-hq/phpstan-yii2/extension.neon
-
 parameters:
     level: max
     paths:
