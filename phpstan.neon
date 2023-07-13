@@ -1,0 +1,13 @@
+includes:
+    - vendor/phpstan/phpstan/conf/bleedingEdge.neon
+    - vendor/proget-hq/phpstan-yii2/extension.neon
+
+parameters:
+    level: max
+    paths:
+        - %currentWorkingDirectory%/models
+        - %currentWorkingDirectory%/controllers
+        - %currentWorkingDirectory%/migrations
+    ignoreErrors:
+        - '#Class yii\\base\\BaseObject referenced with incorrect case: yii\\Base\\BaseObject#'
+        - '#Trying to get property [^ ]+ of non-object#'
