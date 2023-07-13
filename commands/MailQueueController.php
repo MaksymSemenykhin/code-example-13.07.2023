@@ -10,7 +10,7 @@ use app\models\MailQueue;
  * Class MailQueueController
  * @package app\commands
  *
- * MailQueueController sends email to users subscribed to a course when a chapter is updated.
+ * MailQueueController(simplified demo version) sends email to users subscribed to a course when a chapter is updated.
  */
 class MailQueueController extends Controller
 {
