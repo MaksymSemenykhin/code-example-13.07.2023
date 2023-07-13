@@ -2,7 +2,7 @@ parameters:
     level: max
     paths:
         - %currentWorkingDirectory%/models
-        - %currentWorkingDirectory%/commmnads
+        - %currentWorkingDirectory%/commands
         - %currentWorkingDirectory%/migrations
     ignoreErrors:
         - '#Class yii\\base\\BaseObject referenced with incorrect case: yii\\Base\\BaseObject#'
