@@ -69,6 +69,3 @@ This application is a code sample meant to demonstrate coding proficiency for th
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
----
-
-This updated README includes a 'Note to Recruiters' section where it's mentioned that the code serves as a demonstration of coding skills and proficiency. This should give clarity to any recruiters or developers who may review the repository.
