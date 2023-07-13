@@ -54,6 +54,12 @@ This is a Yii2 based web application for course management. It serves as a code 
     ```
     * * * * * cd /path-to-your-project/ && php yii mail-queue/send-mail >> /dev/null 2>&1
     ```
+## Continuous Integration
+
+The project uses GitHub Actions for continuous integration. Upon each push to the `master` branch or when a Pull Request is made to the `master` branch, the workflow is triggered. The workflow installs all necessary dependencies and runs PHPStan for static code analysis. 
+
+You can find the configuration for the workflow in the `.github/workflows` directory of the project. For more information on GitHub Actions, please refer to the [official GitHub Actions documentation](https://docs.github.com/en/actions).
+    
 
 ## Note to Recruiters
 
